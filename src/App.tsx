@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import {Xumm} from 'xumm'
 
-const xumm = new Xumm('your-api-key-uuid') // Some API Key
+const xumm = new Xumm('7290f9c6-b23d-4251-9188-064f7e8e442a') // Some API Key
 
 function App() {
   const [account, setAccount] = useState('')
